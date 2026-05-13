@@ -1,2 +1,19 @@
 /* For information on how to create your own theme, please refer to:
 http://ionicframework.com/docs/theming/ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global button rounding ───────────────────────────── */
+ion-button {
+  --border-radius: 12px;
+}
+
+ion-fab-button {
+  --border-radius: 50%;
+}
+
+button {
+  border-radius: 12px;
+}

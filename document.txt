@@ -1,0 +1,38 @@
+BUILD APK
+# Build Ionic web assets
+ionic build
+
+# Sync Capacitor Android project
+npx cap sync android
+
+#R Run on device
+ionic cap run android
+
+# Build debug APK
+cd android
+./gradlew assembleDebug
+
+android/app/build/outputs/apk/debug/app-debug.apk
+
+APK RELEASE
+
+# Build production assets
+ionic build --prod
+
+
+
+# Go to android folder
+cd android
+
+# Build release APK
+./gradlew assembleRelease
+
+android/app/build/outputs/apk/release/app-release.apk
+
+
+LINE COMMAND
+ionic build && npx cap sync android && cd android && ./gradlew assembleDebug
+ionic build --prod && npx cap sync android && cd android && ./gradlew assembleRelease
+
+External
+ionic cap run android -l --external

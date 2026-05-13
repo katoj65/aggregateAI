@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AggregateAI</string>
+    <string name="title_activity_main">AggregateAI</string>
+    <string name="package_name">com.aggregateai.app</string>
+    <string name="custom_url_scheme">com.aggregateai.app</string>
+</resources>

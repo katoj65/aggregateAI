@@ -1,5 +1,7 @@
 {
   "name": "AggregateAI",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "vue-vite"
 }
