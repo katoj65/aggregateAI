@@ -216,10 +216,12 @@ Contributions are welcome from developers, educators, curriculum specialists, an
 
 ## Vision
 
-To revolutionise how academic knowledge is disseminated across Africa using artificial intelligence and accessible technology.
+To revolutionise the dissemination of academic knowledge across Africa through artificial intelligence and accessible technology.
 
 ---
 
 ## Founder
 
-Built by Joshua Kato.
+Built by Joshua Kato
+katoj65@gmail.com
+
